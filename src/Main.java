@@ -1,5 +1,6 @@
 void main() {
-    String s = "()[]{}";
+    String[] words = {"leet", "code"};
+    char x = 'e';
 
-    System.out.println(new ValidParentheses().isValid(s));
+    System.out.println(new FindWordsContainingLetter().findWordsContaining(words, x));
 }
