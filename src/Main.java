@@ -1,5 +1,5 @@
 void main() {
-    String s = "hello";
+    int[] nums = {1,1,2};
 
-    System.out.println(new ScoreOfAString().scoreOfString(s));
+    System.out.println(new RemoveDuplicatesFromSortedArray().removeDuplicates(nums));
 }
