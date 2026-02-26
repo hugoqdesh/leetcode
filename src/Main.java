@@ -1,3 +1,5 @@
 void main() {
-    System.out.println(new RomanToInteger().romanToInt("MCMXCIV"));
+    String s = "()[]{}";
+
+    System.out.println(new ValidParentheses().isValid(s));
 }
