@@ -1,6 +1,5 @@
 void main() {
-    String[] words = {"leet", "code"};
-    char x = 'e';
+    String s = "hello";
 
-    System.out.println(new FindWordsContainingLetter().findWordsContaining(words, x));
+    System.out.println(new ScoreOfAString().scoreOfString(s));
 }
